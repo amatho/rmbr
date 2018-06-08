@@ -126,6 +126,9 @@ fn get_args() -> (Result<Vec<String>, &'static str>, bool) {
     let args_vec: Vec<String> = env::args().collect();
     if args_vec.len() >= 2 {
         let debug = &args_vec[1] == "--debug";
+        if debug {
+            return (Ok(args_vec[2..].to_vec()), debug);
+        }
         (Ok(args_vec[1..].to_vec()), debug)
     } else {
         (Err("Not enough arguments"), false)

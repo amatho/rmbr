@@ -1,6 +1,6 @@
 [package]
 name = "rmbr"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Amandus Thorsrud <ama.thorsrud@gmail.com>"]
 
 [dependencies]

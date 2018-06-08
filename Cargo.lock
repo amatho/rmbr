@@ -30,7 +30,7 @@ dependencies = [
 
 [[package]]
 name = "rmbr"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "app_dirs 1.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_json 1.0.20 (registry+https://github.com/rust-lang/crates.io-index)",
